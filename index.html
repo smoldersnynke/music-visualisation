@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Hier komt je titel</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="template.css">
+		<link href="https://fonts.googleapis.com/css?family=Exo:900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Exo:500" rel="stylesheet">
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<header>
+				<h1>MUSIC VISUALISATION</h1>
+				<h2>DEBRIS by Steven Price</h2>
+
+				<div>
+					<!--audio hele liedje-->
+					<p>Speel volledige track af: </p>
+					<audio id="mainAudio" controls>
+						  <source src="music-full.mp3" type="audio/mpeg">
+						Your browser does not support the audio element. Follow this link: ...
+					</audio>
+				</div>
+		</header>
+
+		<main>
+
+
+			<section class="legende">
+				<div>
+					<img src="icon-16.png"> <p> = Neptunus</p> <button onclick="document.getElementById('icon1').play()">Play</button>
+					<button onclick="document.getElementById('icon1').pause()">Pause</button>
+				</div>
+				<div>
+					<img src="icon-14.png"> <p> = Uranus</p> <button onclick="document.getElementById('icon2').play()">Play</button>
+					<button onclick="document.getElementById('icon2').pause()">Pause</button>
+				</div>
+				<div>
+					<img src="icon-18.png"> <p> = Saturnus</p> <button onclick="document.getElementById('icon3').play()">Play</button>
+					<button onclick="document.getElementById('icon3').pause()">Pause</button>
+				</div>
+				<div>
+					<img src="icon-20.png"> <p> = Jupiter</p> <button onclick="document.getElementById('icon4').play()">Play</button>
+					<button onclick="document.getElementById('icon4').pause()">Pause</button>
+				</div>
+			</section>
+
+			<section id="midden">
+				<img id="drawing" src="drawing-mid.png">
+			</section>
+
+
+			<section class="legende">
+				<div>
+					<img src="icon-15.png"> <p> = Mars</p> <button onclick="document.getElementById('icon5').play()">Play</button>
+					<button onclick="document.getElementById('icon5').pause()">Pause</button>
+				</div>
+				<div>
+					<img src="icon-17.png"> <p> = Aarde</p> <button onclick="document.getElementById('icon6').play()">Play</button>
+					<button onclick="document.getElementById('icon6').pause()">Pause</button>
+				</div>
+				<div>
+					<img src="icon-19.png"> <p> = Venus</p> <button onclick="document.getElementById('icon7').play()">Play</button>
+					<button onclick="document.getElementById('icon7').pause()">Pause</button>
+				</div>
+				<div>
+					<img src="icon-21.png"> <p> = Mercurius</p> <button onclick="document.getElementById('icon8').play()">Play</button>
+					<button onclick="document.getElementById('icon8').pause()">Pause</button>
+				</div>
+				<div>
+					<img src="zon-22.png"> <p> = ZON</p>
+				</div>
+			</section>
+
+
+
+
+
+
+
+				<!--audio sound 1-->
+				<audio class="onzichtbaar" id="icon1" controls>
+					  <source src="geluid1.mp3" type="audio/mpeg">
+					Your browser does not support the audio element. Please try an other browser.
+				</audio>
+
+				<!--audio sound 2-->
+				<audio class="onzichtbaar" id="icon2" controls>
+					  <source src="geluid2.mp3" type="audio/mpeg">
+					Your browser does not support the audio element. Please try an other browser.
+				</audio>
+
+				<!--audio sound 3-->
+				<audio class="onzichtbaar" id="icon3" controls>
+					  <source src="geluid3.mp3" type="audio/mpeg">
+					Your browser does not support the audio element. Please try an other browser.
+				</audio>
+
+				<!--audio sound 4-->
+				<audio class="onzichtbaar" id="icon4" controls>
+					  <source src="geluid4.mp3" type="audio/mpeg">
+					Your browser does not support the audio element. Please try an other browser.
+				</audio>
+
+				<!--audio sound 5-->
+				<audio class="onzichtbaar" id="icon5" controls>
+					  <source src="geluid5.mp3" type="audio/mpeg">
+					Your browser does not support the audio element. Please try an other browser.
+				</audio>
+
+				<!--audio sound 6-->
+				<audio class="onzichtbaar" id="icon6" controls>
+					  <source src="geluid6.mp3" type="audio/mpeg">
+					Your browser does not support the audio element. Please try an other browser.
+				</audio>
+
+				<!--audio sound 7-->
+				<audio class="onzichtbaar" id="icon7" controls>
+					  <source src="geluid7.mp3" type="audio/mpeg">
+					Your browser does not support the audio element. Please try an other browser.
+				</audio>
+
+				<!--audio sound 8-->
+				<audio class="onzichtbaar" id="icon8" controls>
+					  <source src="geluid8.mp3" type="audio/mpeg">
+					Your browser does not support the audio element. Please try an other browser.
+				</audio>
+
+
+
+
+			</main>
+
+			<footer>
+				<p>Data compilatie en design door Nynke Smolders</p>
+			</footer>
+
+		<script src="template.js"></script>
+	</body>
+</html>
